@@ -4,7 +4,15 @@ from sqlite3 import Error
 class DBmarket:
     def __init__(self, db_file):
         self.conn = None
-        self.sql_create_projects_table = """ CREATE TABLE IF NOT EXISTS markets (
+        try:
+            self.conn = sqlite3.connect(db_file)
+            print(sqlite3.version)
+            self.create_table()
+        except Error as e:
+            print(e)
+
+    def create_table(self):
+        sql_create_projects_table = """ CREATE TABLE IF NOT EXISTS markets (
                                             year  integer NOT NULL,
                                             month integer NOT NULL,
                                             day   integer NOT NULL,
@@ -14,16 +22,8 @@ class DBmarket:
                                             name text
                                         ); """
         try:
-            self.conn = sqlite3.connect(db_file)
-            print(sqlite3.version)
-            self.create_table
-        except Error as e:
-            print(e)
-
-    def create_table(self):
-        try:
-            c = conn.cursor()
-            c.execute(create_table_sql)
+            c = self.conn.cursor()
+            c.execute(sql_create_projects_table)
         except Error as e:
             print(e)
 

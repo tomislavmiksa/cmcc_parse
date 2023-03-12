@@ -85,7 +85,7 @@ def parseFinancial(url):
     return result
 
 if __name__ == "__main__":
-    market = DBmarket(r".\db\pythonsqlite.db")
+    market = DBmarket(r"marketsvalues.db")
 
     stdReport = open('stdReports.txt', 'r')
     line = stdReport.readline().strip()
