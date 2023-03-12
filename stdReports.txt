@@ -1,0 +1,15 @@
+https://www.cftc.gov/files/dea/cotarchives/2023/options/ag_lof020723.htm
+https://www.cftc.gov/files/dea/cotarchives/2023/options/petroleum_lof020723.htm
+https://www.cftc.gov/files/dea/cotarchives/2023/options/nat_gas_lof020723.htm
+https://www.cftc.gov/files/dea/cotarchives/2023/options/electricity_lof020723.htm
+https://www.cftc.gov/files/dea/cotarchives/2023/options/other_lof020723.htm
+https://www.cftc.gov/files/dea/cotarchives/2023/options/ag_lof021423.htm
+https://www.cftc.gov/files/dea/cotarchives/2023/options/petroleum_lof021423.htm
+https://www.cftc.gov/files/dea/cotarchives/2023/options/nat_gas_lof021423.htm
+https://www.cftc.gov/files/dea/cotarchives/2023/options/electricity_lof021423.htm
+https://www.cftc.gov/files/dea/cotarchives/2023/options/other_lof021423.htm
+https://www.cftc.gov/dea/futures/ag_lf.htm
+https://www.cftc.gov/dea/options/petroleum_lof.htm
+https://www.cftc.gov/dea/options/nat_gas_lof.htm
+https://www.cftc.gov/dea/options/electricity_lof.htm
+https://www.cftc.gov/dea/options/other_lof.htm
